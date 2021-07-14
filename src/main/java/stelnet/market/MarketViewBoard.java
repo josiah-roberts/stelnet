@@ -15,7 +15,7 @@ import stelnet.helper.IntelHelper;
 import stelnet.helper.Tagger;
 import stelnet.market.data.MarketProvider;
 import stelnet.market.view.MarketSelectButton;
-import stelnet.market.view.VierwerTabViewFactory;
+import stelnet.market.view.ViewerTabViewFactory;
 import stelnet.storage.ButtonManager;
 import stelnet.storage.FilterManager;
 import stelnet.storage.StorageTab;
@@ -58,7 +58,7 @@ public class MarketViewBoard extends BaseBoard {
     @Override
     protected List<Renderable> getRenderables(Size size) {
         return Arrays.<Renderable>asList(
-                new VierwerTabViewFactory(
+                new ViewerTabViewFactory(
                         buttonManager,
                         filterManager,
                         activeTab,

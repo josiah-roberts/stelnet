@@ -7,9 +7,9 @@ import stelnet.storage.data.DataProvider;
 import stelnet.storage.view.StorageTabViewFactory;
 import stelnet.ui.TabButton;
 
-public class VierwerTabViewFactory extends StorageTabViewFactory {
+public class ViewerTabViewFactory extends StorageTabViewFactory {
 
-    public VierwerTabViewFactory(
+    public ViewerTabViewFactory(
             ButtonManager buttonManager,
             FilterManager filterManager,
             StorageTab activeTab,
